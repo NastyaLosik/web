@@ -1,0 +1,230 @@
+@font-face {
+    font-family: "Black Signature";
+    src: url("./fonts/BlackSignaturePersonalUseOnlyRegular.otf");
+}
+@font-face {
+    font-family: "Changa One";
+    src: url("./fonts/ChangaOne-Regular.ttf");
+}
+@font-face {
+    
+    font-family: 'Roboto';
+    src: url("./fonts/Roboto-Regular.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container120{
+    max-width: 1200px;
+    width: 100vw;
+}
+
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-logo{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.block-logo p{
+    font-size: 15.7px;
+    font-family: "Black Signature";
+    color: rgba(62, 62, 62, 1);
+}
+
+.block-logo span{
+    font-family: "Changa One";
+    font-size: 26.69px;
+    color: rgba(138, 83, 255, 1);
+}
+.navbar {
+    display: flex;  
+    max-width: 457px;
+    width: 100vw;  
+}
+
+.block-link{
+    font-size: 12.56px;
+    font-family: "Roboto";
+    color: rgba(73, 83, 103, 1);
+    display: flex;
+    max-width: 359px;
+    width: 100vw;
+}
+
+.block-link ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.block-link li{
+    list-style-type: none;
+    align-content: center;
+}
+
+.block-link a{
+    color: rgba(138, 83, 255, 1);
+    text-decoration: none;
+}
+
+.block-img {
+    display: flex;
+    align-items: center;
+}
+
+.block-img img{
+    margin-left: 18px;
+}
+
+.block-img hr{
+    width: 1px;
+    height: 24px;
+    background-color: #EEEEEE;
+    border: none;
+    margin-left: 20px;
+}
+
+.hero-section{
+    background: url(./images/hero\ background\ image.svg);
+    background-size: cover;
+    height: 580px;
+    width: 100%;
+}
+
+.call-action{
+    display: flex;
+    max-width: 360px;
+    justify-content: space-between;
+}
+
+.story{
+    width: 165.17px;
+    height: 46px;
+    font-size: 16px;
+    align-content: center;
+}
+
+.highlights{
+    display: flex;
+    align-items: center;
+    width: 170.63px;
+    height: 36px;
+    padding: 0px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgba(67, 67, 67, 1);
+    cursor: pointer;
+}
+
+.container{
+    width: 100%;
+    max-width: 1160px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.text{
+    width: 540px;
+    height: 580px;
+    margin: 40px, 120px, 40px, 140px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.headline{
+    font-size: 73px;
+    font-family: "Changa One";
+    color: rgba(67, 67, 67, 1);
+}
+.headline span{
+    color: rgba(138, 83, 255, 1);
+}
+
+.main-text{
+    font-size: 22px;
+    font-family: "Roboto";
+    color: rgba(67, 67, 67, 1);
+    width: 505px;
+    height: 72px;
+}
+.featured-destr {
+    display: flex;
+}
+
+.featured-destr-content {
+    margin: 107px 0;
+    display: flex;
+    width: 100vw;
+}
+
+.img-container{
+    width: 455.34px;
+    height: 265.35px;
+}
+
+.peopl-img{
+    width: 423.94px;
+    height: 265.35px;
+}
+
+.feat-dest-blurb{
+    width: 580px;
+    height: 292px;
+    float: right;
+    padding: 0 20px 20px 0;
+}
+
+.copywriting{
+    width: 520px;
+    height: 172px;
+}
+
+.copywriting-pre-title{
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgba(138, 83, 255, 1);
+}
+
+.copywriting-headline{
+    font-size: 39px;
+    font-family: "Changa One";
+    color: rgba(67, 67, 67, 1);
+}
+
+.copywriting-main-text{
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgba(67, 67, 67, 1);
+}
+.watch{
+    display: flex;
+    align-items: center;
+    width: 143.77px;
+    height: 36px;
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: rgba(138, 83, 255, 1);
+    cursor: pointer;
+}
+.watch img{
+    padding-right: 12px;
+}
