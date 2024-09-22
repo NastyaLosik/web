@@ -1,0 +1,363 @@
+@font-face {
+    font-family: "Black Signature";
+    src: url("../fonts/BlackSignaturePersonalUseOnlyRegular.otf");
+}
+@font-face {
+    font-family: "Changa One";
+    src: url("../fonts/ChangaOne-Regular.ttf");
+}
+@font-face {
+    
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hero-section{
+    background: url(../images/hero\ background\ image.svg);
+    background-size: cover;
+    height: 580px;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.text{
+    width: 540px;
+    height: 580px;
+    margin: 40px, 120px, 40px, 140px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.call-action{
+    display: flex;
+    max-width: 360px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.story{
+    width: 165.17px;
+    height: 46px;
+    font-size: 12.56px;
+    font-family: 'Roboto';
+    align-content: center;
+    background-color: rgba(138, 83, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 3.14px;
+}
+
+.highlights{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 170.63px;
+    height: 36px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgba(67, 67, 67, 1);
+    cursor: pointer;
+    line-height: 28.26px;
+}
+
+.headline{
+    font-size: 73px;
+    font-family: "Changa One";
+    color: rgba(67, 67, 67, 1);
+    line-height: 84px;
+    line-height: 65.95px;
+}
+
+.headline span{
+    color: rgba(138, 83, 255, 1);
+}
+
+.main-text{
+    font-size: 22px;
+    font-family: "Roboto";
+    color: rgba(67, 67, 67, 1);
+    width: 505px;
+    height: 72px;
+    line-height: 28.26px;
+}
+
+.recommended {
+    display: flex;
+    height: 552px;
+}
+
+.recommended-content {
+    margin: 107px 0;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+}
+
+.img-container{
+    width: 455.34px;
+    height: 265.35px;
+}
+
+.peopl-img{
+    width: 423.94px;
+    height: 265.35px;
+}
+
+.video-description{
+    width: 455.34px;
+    height: 230.77px;
+    padding: 0 20px 20px 0;
+}
+
+.copywriting{
+    width: 520px;
+    height: 172px;
+}
+
+.copywriting-pre-title{
+    font-size: 14.13px;
+    font-family: "Roboto";
+    color: rgba(138, 83, 255, 1);
+    line-height: 28.26px;
+}
+
+.copywriting-headline{
+    font-size: 30.62px;
+    font-family: "Changa One";
+    color: rgba(67, 67, 67, 1);
+    line-height: 28.26px;
+}
+
+.copywriting-main-text{
+    font-size: 14.13px;
+    font-family: "Roboto";
+    color: rgba(67, 67, 67, 1);
+    line-height: 25.91px;
+}
+
+.watch{
+    display: flex;
+    align-items: center;
+    width: 126.77px;
+    height: 36px;
+    justify-content: space-between;
+    line-height: 28.26px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: rgba(138, 83, 255, 1);
+    cursor: pointer;
+}
+
+.watch img{
+    padding-right: 12px;
+}
+
+.world {
+    display: flex;
+    flex-direction: column;
+    height: 621px;
+}
+
+.table-of-contents{
+    max-width: 1202px;
+    width: 100vw;
+    height: 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.join-table{
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: rgba(138, 83, 255, 1);
+    line-height: 21.09px;
+}
+.discover-table{
+    font-size: 39px;
+    font-family: 'Changa One';
+    color: rgba(67, 67, 67, 1);
+    line-height: 40px;
+}
+.cards{
+    max-width: 1202px;
+    width: 100vw;
+    height: 410px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.place{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'Changa One';
+    color: rgba(67, 67, 67, 1);
+    line-height: 36px;
+}
+
+.discover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: rgba(138, 83, 255, 1);
+    line-height: 18.75px;
+}
+
+.recent-stories{
+    height: 748.11px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recent-stories-titles{
+    max-width: 1200px;
+    width: 100vw;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stories-subtext{
+    height: 21px;
+    font-size: 18px;
+    line-height: 21.09px;
+    font-family: 'Roboto';
+    color: rgba(138, 83, 255, 1);
+}
+
+.stories-title{
+    height: 40px;
+    font-size: 39px;
+    line-height: 40px;
+    font-family: 'Changa One';
+    color: rgba(67, 67, 67, 1);
+}
+
+.story-block{
+    max-width: 1200px;
+    width: 100vw;
+    height: 476.11px;
+    display: flex;
+    flex-direction: row;
+}
+
+.stories-left{
+    max-width: 600px;
+    width: 100vw;
+    height: 476.11px;
+    padding: 0 20px;
+}
+
+.story-big-card{
+    max-width: 560px;
+    width: 100vw;
+    height: 476.11px;
+}
+
+.big-story-img{
+    width: 560px;
+    height: 358.11px;
+}
+
+.big-story-body{
+    max-width: 560px;
+    width: 100vw;
+    height: 118px;
+}
+
+.big-story-items{
+    max-width: 512px;
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.big-story-text{
+    display: flex;
+    flex-direction: column;
+    max-width: 435.13px;
+    width: 100vw;
+    height: 90px;
+}
+
+.title-of-main-story{
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Changa One';
+    color: rgba(67, 67, 67, 1);
+}
+
+.description-of-main-story{
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Roboto';
+    color: rgba(87, 96, 116, 1);
+}
+
+.big-story-items button{
+    width: 48.87px;
+    height: 48px;
+    border: none;
+    background: none;
+}
+
+.stories-right{
+    max-width: 600px;
+    width: 100vw;
+    height: 476px;
+}
+
+.story-card{
+    max-width: 600px;
+    width: 100vw;
+    height: 148px;
+    display: flex;
+    flex-direction: row;
+}
+
+.story-text{
+    max-width: 358px;
+    width: 100vw;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.city-country{
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Changa One';
+    color: rgba(67, 67, 67, 1);
+}
+
+.destination-of-city{
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Roboto';
+    color: rgba(87, 96, 116, 1);
+}
+
+.destination-of-city span{
+    color: rgba(138, 83, 255, 1);
+}
