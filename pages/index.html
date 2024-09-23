@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-wight, initial-scale=1.0">
-    <link rel="stylesheet" href="../decoration/styles/style.css">
-    <link rel="stylesheet" href="../decoration/styles/base_style.css">
+    <link rel="stylesheet" href="../static/styles/style.css">
+    <link rel="stylesheet" href="../static/styles/base_style.css">
     <title></title>
 </head>
 <body>
     <header class="container120">
-        <div class="block-logo">
+        <a href="#talking-travel" class="block-logo">
             <p>Talking</p>
             <span>Travel</span>
-        </div>
+        </a>
         <div class="navbar">
             <div class="block-link">
                 <ul>
@@ -24,30 +24,30 @@
             </div>
             <div class="block-img">
                 <hr>
-                <img src="../decoration/icons/Search.svg" alt="">
-                <img src="../decoration/icons/Profile.svg" alt="">
+                <img src="../static/icons/Search.svg" alt="">
+                <img src="../static/icons/Profile.svg" alt="">
             </div>
         </div>
         
     </header>
-    <div class="hero-section">
+    <div id="talking-travel" class="hero-section">
             <div class="container">
                 <div class="text">
                     <span class="headline"><span>Let's talk</span> about your next trip!</span>
                     <br>
                     <span class="main-text">Share your favorite travel destination and we will feature it in our next blog!</span>
-                    <div class="call-action">
+                    <a href="#highlights" class="call-action">
                         <button class="story">Share your story</button>
-                        <button class="highlights"><img src="../decoration/icons/Group 678 (1).svg" alt="">Watch highlights</button>
-                    </div>
+                        <button class="highlights"><img src="../static/icons/Group 678 (1).svg" alt="">Watch highlights</button>
+                    </a>
                 </div>
             </div>
     </div>
-    <div class="recommended container">
+    <div id="highlights" class="recommended container">
         <div class="recommended-content">
             <div class="img-container">
                 <div class="peopl-img">
-                    <img src="../decoration/images/Featured Image.svg" alt="">
+                    <img src="../static/images/Featured Image.svg" alt="">
                 </div>
             </div>
             <div class="video-description">
@@ -58,7 +58,9 @@
                     <br>
                     <span class="copywriting-main-text">Visiting the swiss alps? Want to know the requirements on travelling to Switzerland during the pandemic? Our blog might help! </span>
                 </div>
-                <button class="watch"><img src="../decoration/icons/Group 678.svg" alt=""> Watch now</button>
+                <a href="/pages/story.html">
+                    <button class="watch"><img src="../static/icons/Group 678.svg" alt=""> Watch now</button>
+                </a>
             </div>
         </div>
     </div>
@@ -69,22 +71,22 @@
         </div>
         <div class="cards">
             <div>
-                <img src="../decoration/images/Iceland card image.svg" alt="">
+                <img src="../static/images/Iceland card image.svg" alt="">
                 <span class="place">Iceland</span>
                 <span class="discover">Discover</span>
             </div>
             <div>
-                <img src="../decoration/images/Italy card image.svg" alt="">
+                <img src="../static/images/Italy card image.svg" alt="">
                 <span class="place">Italy</span>
                 <span class="discover">Discover</span>
             </div>
             <div>
-                <img src="../decoration/images/Dubai card image.svg" alt="">
+                <img src="../static/images/Dubai card image.svg" alt="">
                 <span class="place">Dubai</span>
                 <span class="discover">Discover</span>
             </div>
             <div>
-                <img src="../decoration/images/Patagonia Card Image.svg" alt="">
+                <img src="../static/images/Patagonia Card Image.svg" alt="">
                 <span class="place">Patagonia</span>
                 <span class="discover">Discover</span>
             </div>
@@ -132,35 +134,35 @@
         <div class="story-block">
             <div class="stories-left">
                 <div class="story-big-card">
-                    <img class="big-story-img" src="../decoration/images/Big Story Image.svg" alt="">
+                    <img class="big-story-img" src="../static/images/Big Story Image.svg" alt="">
                     <div class="big-story-body">
                         <div class="big-story-items">
                             <div class="big-story-text">
                                 <span class="title-of-main-story">Zermatt, Switzerland</span>
                                 <span class="description-of-main-story">Marvel on the beauty of the iconic Matterhorn. Find the best places to stay that has the best views of this peak...</span>
                             </div>
-                            <button> <img src="../decoration/icons/Play Button.svg" alt=""></button>
+                            <button> <img src="../static/icons/Play Button.svg" alt=""></button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="stories-right">
                 <div class="story-card">
-                    <img src="../decoration/images/Story Image.svg" alt="">
+                    <img src="../static/images/Story Image.svg" alt="">
                     <div class="story-text">
                         <span class="city-country">Tuscany, Italy</span>
                         <span class="destination-of-city">The amazing Tuscany is home to famous Renaissance art and architecture and a vast scenic landscape. <span>view full blog...</span></span>
                     </div>
                 </div>
                 <div class="story-card">
-                    <img src="../decoration/images/Story Image (1).svg" alt="">
+                    <img src="../static/images/Story Image (1).svg" alt="">
                     <div class="story-text">
                         <span class="city-country">Kyoto, Japan</span>
                         <span class="destination-of-city">Kyoto is well known for its temples, gardens, Shinto shrines and wooden houses. It’s time to visit tokyo. <span>view full blog...</span></span>
                     </div>
                 </div>
                 <div class="story-card">
-                    <img src="../decoration/images/Story Image (2).svg" alt="">
+                    <img src="../static/images/Story Image (2).svg" alt="">
                     <div class="story-text">
                         <span class="city-country">Lofoten Islands, Norway</span>
                         <span class="destination-of-city">Featuring razor-sharp peaks housing the arctic landscape. This astonishing island is perfect for your next postcard. <span>view full blog...</span></span>
@@ -175,8 +177,8 @@
         </div>
         <div class="footer-links">
             <ul>
-                <li>Home</li>
-                <li>Story</li>
+                <li><a href="/pages/index.html">Home</a></li>
+                <li><a href="/pages/story.html">Story</a></li>
                 <li>Gallery</li>
                 <li>Contact Us</li>
             </ul>
