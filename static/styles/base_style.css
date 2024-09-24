@@ -47,6 +47,7 @@ header{
     font-family: "Black Signature";
     color: rgba(62, 62, 62, 1);
     line-height: 28.26px;
+    font-weight: 400;
 }
 
 .block-logo span{
@@ -54,6 +55,7 @@ header{
     font-size: 26.69px;
     color: rgba(138, 83, 255, 1);
     line-height: 28.26px;
+    font-weight: 400;
 }
 
 .navbar {
@@ -70,6 +72,7 @@ header{
     max-width: 359px;
     width: 100vw;
     line-height: 14.92px;
+    font-weight: 400;
 }
 
 .block-link ul{
@@ -94,6 +97,7 @@ header{
     color: rgba(73, 83, 103, 1);
     line-height: 14.92px;
     text-decoration: none;
+
 }
 
 .block-img {
@@ -147,6 +151,7 @@ header{
     font-family: 'Roboto';
     color: rgba(138, 83, 255, 1);
     line-height: 21.09px;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -155,6 +160,7 @@ header{
     font-family: 'Changa One';
     color: rgba(67, 67, 67, 1);
     line-height: 40px;
+    font-weight: 400;
 }
 
 .form{
@@ -181,6 +187,7 @@ header{
     font-family: 'Changa One';
     line-height: 36px;
     color: rgba(67, 67, 67, 1);
+    font-weight: 400;
 }
 
 .about-travels{
@@ -189,6 +196,7 @@ header{
     line-height: 34px;
     font-family: 'Roboto';
     color: rgba(67, 67, 67, 1);
+    font-weight: 400;
 }
 
 .form-fields{
@@ -209,6 +217,7 @@ header{
     padding-left: 12px;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 400;
     font-family: 'Roboto';
 }
 
@@ -224,6 +233,7 @@ header{
     height: 46px;
     font-size: 16px;
     line-height: 18.75px;
+    font-weight: 400;
     font-family: 'Roboto';
     background-color: rgba(138, 83, 255, 1);
     color: rgba(255, 255, 255, 1);
@@ -250,6 +260,7 @@ header{
 .copyright-info span{
     font-size: 14px;
     line-height: 16.41px;
+    font-weight: 400;
     font-family: 'Roboto';
     color: rgba(147, 158, 180, 1);
 }
@@ -269,6 +280,7 @@ header{
 .footer-links li{
     font-size: 14px;
     line-height: 16.41px;
+    font-weight: 400;
     font-family: 'Roboto';
     color: rgba(147, 158, 180, 1);
     list-style-type: none;

@@ -50,6 +50,7 @@
     width: 165.17px;
     height: 46px;
     font-size: 12.56px;
+    font-weight: 400;
     font-family: 'Roboto';
     align-content: center;
     background-color: rgba(138, 83, 255, 1);
@@ -68,6 +69,7 @@
     border: none;
     background: none;
     font-size: 16px;
+    font-weight: 400;
     font-family: "Roboto";
     color: rgba(67, 67, 67, 1);
     cursor: pointer;
@@ -79,7 +81,7 @@
     font-family: "Changa One";
     color: rgba(67, 67, 67, 1);
     line-height: 84px;
-    line-height: 65.95px;
+    font-weight: 400;
 }
 
 .headline span{
@@ -93,6 +95,7 @@
     width: 505px;
     height: 72px;
     line-height: 28.26px;
+    font-weight: 400;
 }
 
 .recommended {
@@ -141,6 +144,7 @@
     color: rgba(138, 83, 255, 1);
     line-height: 21.01px;
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 .copywriting-headline{
@@ -149,6 +153,7 @@
     font-family: "Changa One";
     color: rgba(67, 67, 67, 1);
     line-height: 36px;
+    font-weight: 400;
 }
 
 .copywriting-main-text{
@@ -157,6 +162,7 @@
     font-family: "Roboto";
     color: rgba(67, 67, 67, 1);
     line-height: 25px;
+    font-weight: 400;
 }
 
 .video-description a{
@@ -175,6 +181,7 @@
     font-size: 16px;
     color: rgba(138, 83, 255, 1);
     cursor: pointer;
+    font-weight: 400;
 }
 
 .watch img{
@@ -202,12 +209,14 @@
     color: rgba(138, 83, 255, 1);
     line-height: 21.09px;
     text-transform: uppercase;
+    font-weight: 700;
 }
 .discover-table{
     font-size: 39px;
     font-family: 'Changa One';
     color: rgba(67, 67, 67, 1);
     line-height: 40px;
+    font-weight: 400;
 }
 .cards{
     max-width: 1202px;
@@ -226,6 +235,7 @@
     font-family: 'Changa One';
     color: rgba(67, 67, 67, 1);
     line-height: 36px;
+    font-weight: 400;
 }
 
 .discover{
@@ -236,6 +246,7 @@
     font-family: 'Roboto';
     color: rgba(138, 83, 255, 1);
     line-height: 18.75px;
+    font-weight: 400;
 }
 
 .recent-stories{
@@ -257,6 +268,7 @@
     height: 21px;
     font-size: 18px;
     line-height: 21.09px;
+    font-weight: 700;
     font-family: 'Roboto';
     color: rgba(138, 83, 255, 1);
     text-transform: uppercase;
@@ -266,6 +278,7 @@
     height: 40px;
     font-size: 39px;
     line-height: 40px;
+    font-weight: 400;
     font-family: 'Changa One';
     color: rgba(67, 67, 67, 1);
 }
@@ -322,6 +335,7 @@
 .title-of-main-story{
     font-size: 24px;
     line-height: 36px;
+    font-weight: 400;
     font-family: 'Changa One';
     color: rgba(67, 67, 67, 1);
 }
@@ -329,6 +343,7 @@
 .description-of-main-story{
     font-size: 16px;
     line-height: 26px;
+    font-weight: 400;
     font-family: 'Roboto';
     color: rgba(87, 96, 116, 1);
 }
@@ -367,6 +382,7 @@
 .city-country{
     font-size: 24px;
     line-height: 36px;
+    font-weight: 400;
     font-family: 'Changa One';
     color: rgba(67, 67, 67, 1);
 }
@@ -374,6 +390,7 @@
 .destination-of-city{
     font-size: 16px;
     line-height: 26px;
+    font-weight: 400;
     font-family: 'Roboto';
     color: rgba(87, 96, 116, 1);
 }
